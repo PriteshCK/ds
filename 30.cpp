@@ -29,6 +29,7 @@ void createFile() {
         cout << "\nEnter details for item " << i + 1;
         cout << "Item No: ";
         cin >> item.itemNo;
+	cin.ignore();
         cout << "Item Name: ";
         cin.getline(item.name, 30);
         cout << "Item Price: ";
